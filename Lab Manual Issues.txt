@@ -1,0 +1,5 @@
+- Cannot wrap text around some figures
+- Centering of table
+- Lists aren’t perfect
+
+

@@ -1,0 +1,78 @@
+
+Number of samples in each group:
+
+         elbow          mouth        nostril     oropharynx           skin          stool 
+            11            101             33             49             61             19 
+        tongue         vagina vaginal_fornix 
+            41             30             15 
+
+Mean Alpha Diversity:
+         elbow          mouth        nostril     oropharynx           skin          stool 
+      6.415757       7.896182       6.504836       7.764902       5.801633       7.449082 
+        tongue         vagina vaginal_fornix 
+      7.643826       4.375157       4.212432 
+
+Median Alpha Diversity:
+         elbow          mouth        nostril     oropharynx           skin          stool 
+      6.549467       8.044113       6.672757       7.868989       5.815341       7.494483 
+        tongue         vagina vaginal_fornix 
+      7.648001       4.614084       4.563417 
+
+Standard Deviation:
+         elbow          mouth        nostril     oropharynx           skin          stool 
+     0.9965061      0.6603611      0.7108925      0.4281826      0.8160827      0.5713863 
+        tongue         vagina vaginal_fornix 
+     0.2237191      0.8401526      0.7398087 
+
+Pairwise Mann-Whitney-Wilcoxon Tests were performed.
+Pairwise p-values are:
+       oropharynx_vs_nostril         oropharynx_vs_vagina         oropharynx_vs_tongue 
+                6.875501e-14                 3.607092e-22                 3.197374e-02 
+         oropharynx_vs_elbow           oropharynx_vs_skin oropharynx_vs_vaginal_fornix 
+                1.031322e-05                 9.321138e-18                 1.253769e-14 
+         oropharynx_vs_stool          oropharynx_vs_mouth            nostril_vs_vagina 
+                2.500105e-02                 9.634863e-03                 2.816057e-15 
+           nostril_vs_tongue             nostril_vs_elbow              nostril_vs_skin 
+                3.548167e-13                 8.937914e-01                 5.168321e-05 
+   nostril_vs_vaginal_fornix             nostril_vs_stool             nostril_vs_mouth 
+                1.829391e-12                 1.157831e-05                 2.522149e-13 
+            vagina_vs_tongue              vagina_vs_elbow               vagina_vs_skin 
+                2.086679e-20                 9.634552e-07                 8.220729e-11 
+    vagina_vs_vaginal_fornix              vagina_vs_stool              vagina_vs_mouth 
+                2.986182e-01                 1.060913e-13                 1.358992e-16 
+             tongue_vs_elbow               tongue_vs_skin     tongue_vs_vaginal_fornix 
+                1.511993e-05                 8.977868e-16                 1.230523e-13 
+             tongue_vs_stool              tongue_vs_mouth                elbow_vs_skin 
+                6.035079e-02                 4.803788e-05                 8.232288e-02 
+     elbow_vs_vaginal_fornix               elbow_vs_stool               elbow_vs_mouth 
+                1.812026e-06                 1.684103e-03                 1.186888e-05 
+      skin_vs_vaginal_fornix                skin_vs_stool                skin_vs_mouth 
+                9.410842e-08                 2.927466e-09                 4.013025e-23 
+     vaginal_fornix_vs_stool      vaginal_fornix_vs_mouth               stool_vs_mouth 
+                1.077605e-09                 4.707589e-10                 1.156618e-03 
+
+FDR-corrected pairwise p-values are:
+       oropharynx_vs_nostril         oropharynx_vs_vagina         oropharynx_vs_tongue 
+                2.750200e-13                 6.492765e-21                 3.597046e-02 
+         oropharynx_vs_elbow           oropharynx_vs_skin oropharynx_vs_vaginal_fornix 
+                1.687618e-05                 8.389025e-17                 5.641961e-14 
+         oropharynx_vs_stool          oropharynx_vs_mouth            nostril_vs_vagina 
+                2.903348e-02                 1.156184e-02                 1.448258e-14 
+           nostril_vs_tongue             nostril_vs_elbow              nostril_vs_skin 
+                9.825692e-13                 8.937914e-01                 6.891095e-05 
+   nostril_vs_vaginal_fornix             nostril_vs_stool             nostril_vs_mouth 
+                4.704148e-12                 1.780332e-05                 7.566446e-13 
+            vagina_vs_tongue              vagina_vs_elbow               vagina_vs_skin 
+                2.504015e-19                 1.734219e-06                 1.972975e-10 
+    vagina_vs_vaginal_fornix              vagina_vs_stool              vagina_vs_mouth 
+                3.071502e-01                 3.819287e-13                 9.784744e-16 
+             tongue_vs_elbow               tongue_vs_skin     tongue_vs_vaginal_fornix 
+                2.177270e-05                 5.386721e-15                 4.027167e-13 
+             tongue_vs_stool              tongue_vs_mouth                elbow_vs_skin 
+                6.583723e-02                 6.651399e-05                 8.716540e-02 
+     elbow_vs_vaginal_fornix               elbow_vs_stool               elbow_vs_mouth 
+                3.106330e-06                 2.090611e-03                 1.780332e-05 
+      skin_vs_vaginal_fornix                skin_vs_stool                skin_vs_mouth 
+                1.783107e-07                 5.854933e-09                 1.444689e-21 
+     vaginal_fornix_vs_stool      vaginal_fornix_vs_mouth               stool_vs_mouth 
+                2.281987e-09                 1.059208e-09                 1.487080e-03 
